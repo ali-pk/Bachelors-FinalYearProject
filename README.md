@@ -1,7 +1,8 @@
 # Bachelors-FinalYearProject
 Final Year Project Title: "Format Checking of FYP Reports (Word files)". 
-This repository contains source code of my bachelors final year project and also Report of it. 
-This repository is only created to demonstrate source code for admission in masters in Germany.
+•	This repository contains source code of my bachelors final year project and also Report of it. 
+•	This repository is only created to demonstrate source code for admission in masters in Germany.
+•	As, I'll get my degree and complete transcript in end of June or on earliest of July, so this fyp is not yet evaluated on transcript I uploaded on the time of admission in University of Passau but the defence of FYP has been conducted and passed, also the documentation is not yet countersigned by university officials as it is due in the mid of June. 
 
 ABSTRACT:
 Purpose of this final year project is to streamline the evaluation process for the National University of Modern Languages (NUML). 
@@ -10,8 +11,8 @@ I’ve also introduced SMTP services in my project, so the Final Year Project Re
 So Now Teachers no longer need to assess each report manually my application will go through the initial phase of checking requirements and format of provided content in FYP reports. It is created using .NET development and validates all required fields by going through each word from the Word file.
 NOW, the frontend is being refreshed when there will be portal for students and administration. The previous work that has been done is that when student inserts his FYP Report and provide his email in portal, he gets an email with 2 validation files discused above and also he can download by clicking on them in portal. Now we have to add 1 more functionality which is when user validates his FYP REPORT, he also gets a automatically generated TOKEN. This token can be used in administration portal where administration just Searches that provided token and he can see which students have validated final year project report.  
 
-FUNCTIONAL DETAILS AND MINOR CHANGES IN WORK: 
-•	As this project will be evaluated in JUNE, 2023. So, till then minor changes are being applied on weekly basis. Only remaining part to work on is the frontend where we have to create a portal for NUML students and its administrations, this part is also in final stages. 
+FYP Evaluation time period: 
+•	The Defence of my Final year project was successfully passed in May but the final marking will appear in my final transcript on end of June / start of July 2023. 
 
 •	To perform this functionality .NET development is used both console and ASP.NET development. To fetch the data from Word file (.doc) I have used library named "SpireDoc".
 
@@ -21,4 +22,4 @@ FUNCTIONAL DETAILS AND MINOR CHANGES IN WORK:
 
 •	Then comes the main part which is CHAPTERS. In chapters, chapters name, chapters headings and sub-headings are directly compared with corresponding chapters name, headings, sub-headings which are present in TABLE OF CONTENT in SEQUENCE. Also, more details are checked like: bold/unbold, fort size, font style, alignment, word count of main paragraph and its sub-paragraphs, availability of diagrams and tables as they are mentioned in "List of Figures" & "List of Tables". Code of this can be found in ManagementLayer.cs file inside Business Layer. At the end References are validated.
 
-•	As, I'm in my last semester only minor changes are being implemented here and there after every while so FINALIZED AND SIGNED (from FYP committee) report will be available in JUNE 2023. Only remaining part to work on is the frontend where we have to create a portal for NUML students and its administrations, this part is also in final stages.
+
